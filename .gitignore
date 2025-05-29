@@ -1,0 +1,23 @@
+# ==== Terraform state files and backups (any directory) ====
+**/*.tfstate
+**/*.tfstate.backups
+
+# ==== Terraform variable files like secretes ====
+**/*.tfvars
+**/*.tfvars.json
+
+# ===== Terraform local config directories (any .terraform folders anywhere) ====
+**/*.terraform
+**/*.terraform.lock.hcl
+
+# ===== Terraform plan outputs
+**/*.tfplan
+
+# ==== Sensitive SSH Key ====
+**/*.pem
+
+# === VSCode ====
+**/.VSCode
+
+# ==== Git ====
+#.gitignore
