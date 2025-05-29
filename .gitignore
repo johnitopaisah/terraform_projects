@@ -18,6 +18,7 @@
 
 # === VSCode ====
 **/.VSCode
+**/*.DS_Store
 
 # ==== Git ====
 #.gitignore
